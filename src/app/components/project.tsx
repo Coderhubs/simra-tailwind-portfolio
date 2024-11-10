@@ -29,8 +29,6 @@ const Project = () => {
       image: '/image/web.png',
       link: 'https://clone-website-self.vercel.app/'
     },
-
-   
   ];
 
   return (
@@ -41,7 +39,7 @@ const Project = () => {
         <h2 className="text-3xl text-[#EA1D5D] font-bold text-center mb-6 mt-10">My Recent Projects</h2>
 
         <div className="flex justify-center items-center w-full">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 mb-6 w-full max-w-[1200px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 mb-6 w-full max-w-[1200px] justify-center">
             {/* First Row (Projects 1 and 2) */}
             <div className="flex justify-center gap-6 mb-6 w-full">
               {projects.slice(0, 2).map((project) => (
