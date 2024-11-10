@@ -29,6 +29,8 @@ const Project = () => {
       image: '/image/web.png',
       link: 'https://clone-website-self.vercel.app/'
     },
+
+   
   ];
 
   return (
